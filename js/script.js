@@ -114,7 +114,7 @@ const translations = {
       image: "/images/Imagens modais de transporte.jpeg",
       details: "<p>Este projeto apresenta um dashboard interativo que integra informações detalhadas sobre os principais modais de transporte no Brasil, destacando desafios, oportunidades e projeções estratégicas. Com base em fontes oficiais como DNIT, ANTT, ANTAQ, CNT e IBGE, a plataforma fornece uma visão abrangente da infraestrutura logística nacional. A ferramenta é voltada para gestores, formuladores de políticas públicas e empresas do setor, permitindo uma tomada de decisão mais embasada e eficiente.</p>",
       category: "logistica",
-      url: "/mapamoldal.html"
+      url: "https://ronaldobe10.github.io/Portifolio/mapamoldal.html"
     },
     
     {
