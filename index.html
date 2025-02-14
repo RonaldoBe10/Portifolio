@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio profissional especializado em Logística e Engenharia de Produção" />
+  <meta name="keywords" content="logística, engenharia de produção, gestão de projetos, otimização de processos" />
+  <title>Portfólio Profissional - Logística & Eng. Produção</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-theme="light">
+  <!-- Cabeçalho Fixo -->
+  <header class="header" role="banner">
+    <nav class="nav-container" role="navigation">
+      <a href="#home" class="logo">LOGO</a>
+      <!-- Botão Hamburger para Mobile -->
+      <div class="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <!-- Menu Desktop -->
+      <ul class="nav-menu">
+        <li><a href="#home" data-i18n="home">Home</a></li>
+        <li><a href="#sobre" data-i18n="about">Sobre</a></li>
+        <li><a href="#projetos" data-i18n="projects">Projetos</a></li>
+        <li><a href="#servicos" data-i18n="services">Serviços</a></li>
+        <li><a href="#depoimentos" data-i18n="testimonials">Depoimentos</a></li>
+        <li><a href="#blog" data-i18n="blog">Blog</a></li>
+        <li><a href="#contato" data-i18n="contact">Contato</a></li>
+      </ul>
+      <div class="controls">
+        <button id="theme-toggle" aria-label="Alternar tema">
+          <i class="fas fa-moon"></i>
+        </button>
+        <div class="custom-select">
+          <select id="language-selector">
+            <option value="pt">PT</option>
+            <option value="en">EN</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Menu Mobile (Off-canvas) -->
+  <div class="mobile-nav">
+    <ul>
+      <li><a href="#home" data-i18n="home">Home</a></li>
+      <li><a href="#sobre" data-i18n="about">Sobre</a></li>
+      <li><a href="#projetos" data-i18n="projects">Projetos</a></li>
+      <li><a href="#servicos" data-i18n="services">Serviços</a></li>
+      <li><a href="#depoimentos" data-i18n="testimonials">Depoimentos</a></li>
+      <li><a href="#blog" data-i18n="blog">Blog</a></li>
+      <li><a href="#contato" data-i18n="contact">Contato</a></li>
+    </ul>
+  </div>
+
+  <!-- Seção Home com Parallax -->
+  <section id="home" class="hero" role="region" aria-labelledby="hero-heading">
+    <div class="hero-content">
+      <h1 id="hero-heading" data-i18n="heroTitle">Otimização de Processos & Gestão Logística</h1>
+      <p data-i18n="heroSubtitle">Soluções inteligentes para desafios complexos</p>
+    </div>
+  </section>
+
+  <!-- Seção Sobre -->
+  <section id="sobre" class="section" role="region" aria-labelledby="about-heading">
+    <h2 id="about-heading" data-i18n="aboutTitle">Sobre Mim</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p data-i18n="aboutText">
+          Sou formado em Logística e atualmente curso Engenharia de Produção, combinando conhecimento teórico e prático para otimizar processos e melhorar a eficiência operacional. Minha paixão pela inovação e pela resolução de desafios complexos me impulsiona a buscar soluções estratégicas que promovam a integração de cadeias de suprimentos e a melhoria contínua nos ambientes industriais. Com projetos desenvolvidos em parceria com grandes empresas, estou comprometido em transformar desafios logísticos em oportunidades de crescimento e aprimoramento.
+        </p>
+      </div>
+      <div class="skills">
+        <h3 data-i18n="skillsTitle">Habilidades Técnicas</h3>
+        <ul class="skills-list">
+          <li data-i18n="skill1">Gestão da Cadeia de Suprimentos</li>
+          <li data-i18n="skill2">Otimização de Processos</li>
+          <li data-i18n="skill3">Análise de Dados</li>
+          <li data-i18n="skill4">Consultoria Estratégica</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Projetos com Filtro -->
+  <section id="projetos" class="section" role="region" aria-labelledby="projects-heading">
+    <h2 id="projects-heading" data-i18n="projectsTitle">Projetos Recentes</h2>
+    <div class="project-filters">
+      <button class="filter-btn" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="logistica">Logística</button>
+      <button class="filter-btn" data-filter="engenharia">Engenharia</button>
+    </div>
+    <div class="projects-grid">
+      <!-- Projetos serão carregados via JavaScript -->
+    </div>
+  </section>
+
+  <!-- Seção Serviços -->
+  <section id="servicos" class="section" role="region" aria-labelledby="services-heading">
+    <h2 id="services-heading" data-i18n="servicesTitle">Serviços</h2>
+    <div class="services-grid">
+      <article class="service-card">
+        <i class="fas fa-truck"></i>
+        <h3 data-i18n="service1">Logística Integrada</h3>
+        <p data-i18n="service1Desc">Soluções completas para gerenciamento da cadeia de suprimentos.</p>
+      </article>
+      <article class="service-card">
+        <i class="fas fa-cogs"></i>
+        <h3 data-i18n="service2">Otimização de Processos</h3>
+        <p data-i18n="service2Desc">Melhoria contínua dos processos produtivos e logísticos.</p>
+      </article>
+      <article class="service-card">
+        <i class="fas fa-chart-line"></i>
+        <h3 data-i18n="service3">Consultoria Estratégica</h3>
+        <p data-i18n="service3Desc">Assessoria para implementação de estratégias eficientes.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Seção Depoimentos -->
+  <section id="depoimentos" class="section" role="region" aria-labelledby="testimonials-heading">
+    <h2 id="testimonials-heading" data-i18n="testimonialsTitle">Depoimentos</h2>
+    <div class="testimonials">
+      <article class="testimonial">
+        <p data-i18n="testimonial1">"Excelente profissional, transformou nossa logística!"</p>
+        <h4>Cliente Satisfeito</h4>
+      </article>
+      <article class="testimonial">
+        <p data-i18n="testimonial2">"A otimização de processos foi decisiva para o crescimento da nossa empresa."</p>
+        <h4>Parceiro de Negócios</h4>
+      </article>
+    </div>
+  </section>
+
+  <!-- Seção Blog -->
+  <section id="blog" class="section" role="region" aria-labelledby="blog-heading">
+    <h2 id="blog-heading" data-i18n="blogTitle">Blog</h2>
+    <div class="blog-posts">
+      <article class="blog-post">
+        <h3 data-i18n="blogPost1Title">Tendências em Logística 2025</h3>
+        <p data-i18n="blogPost1Excerpt">Descubra as principais inovações que estão transformando a logística global.</p>
+        <a href="#" data-i18n="readMore">Ler Mais</a>
+      </article>
+      <article class="blog-post">
+        <h3 data-i18n="blogPost2Title">Como Otimizar Processos Produtivos</h3>
+        <p data-i18n="blogPost2Excerpt">Estratégias eficazes para aumentar a eficiência industrial.</p>
+        <a href="#" data-i18n="readMore">Ler Mais</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato" class="section" role="region" aria-labelledby="contact-heading">
+    <h2 id="contact-heading" data-i18n="contactTitle">Entre em Contato</h2>
+    <div class="contact-form">
+      <form id="contactForm">
+        <input type="text" name="name" required data-i18n-placeholder="namePlaceholder" placeholder="Seu nome" />
+        <input type="email" name="email" required data-i18n-placeholder="emailPlaceholder" placeholder="Seu e-mail" />
+        <textarea name="message" required data-i18n-placeholder="messagePlaceholder" placeholder="Sua mensagem"></textarea>
+        <button type="submit" data-i18n="sendButton">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Modal de Projeto -->
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3 class="modal-title"></h3>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Botão "Back to Top" -->
+  <button id="back-to-top" aria-label="Voltar ao topo"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-content">
+    <p>&copy; 2025 <a href="index.html" class="linkfooter">Portfólio Profissional.</a> Todos os direitos reservados.</p>
+      <div class="social-links">
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
