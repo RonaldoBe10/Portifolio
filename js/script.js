@@ -17,8 +17,8 @@ const translations = {
       skill2: "Otimização de Processos",
       skill3: "Análise de Dados",
       skill4: "Planejamento Estratégico",
-      skill4: "Gestão de Projetos",
-      skill4: "Indústria 4.0",
+      skill5: "Gestão de Projetos",
+      skill6: "Indústria 4.0",
       projectsTitle: "Projetos Recentes",
       servicesTitle: "Serviços",
       service1: "Logística Integrada",
@@ -59,6 +59,8 @@ const translations = {
       skill2: "Process Optimization",
       skill3: "Data Analysis",
       skill4: "Strategic Consulting",
+      skill5: "Project Management",
+      skill6: "Industry 4.0",
       projectsTitle: "Recent Projects",
       servicesTitle: "Services",
       service1: "Integrated Logistics",
@@ -122,7 +124,7 @@ const translations = {
     {
       title: "Automação Industrial",
       description: "Projeto voltado para a automação de processos em linha de produção.",
-      image: "\images\automacao-de-linha-de-producao-robos.jpg",
+      image: "images/automacao_de_linha_de_producao_robos.jpg",
       details: "<p>Projeto de automação que integrou sistemas robóticos e controle de processos, aumentando a produtividade e reduzindo erros operacionais.</p>",
       category: "engenharia",
       url: ""
