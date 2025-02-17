@@ -58,14 +58,12 @@
     text-decoration: none;
   }
 */
-  .a-logo {
-    text-decoration: none;
-  }
-
+ 
  .logo {
       width: 35px;
       height: 35px;
       border-radius: 5px;  
+      margin: auto;
   }
   .nav-menu {
     display: flex;
