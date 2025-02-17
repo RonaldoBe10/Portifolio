@@ -51,11 +51,16 @@
     align-items: center;
     padding: 1rem 5%;
   }
-  .logo {
+ /* .logo {
     font-size: 1.8rem;
     font-weight: bold;
     color: var(--primary-color);
     text-decoration: none;
+  }
+*/
+ .logo {
+    font-size: 1.8rem;
+     text-decoration: none;
   }
   .nav-menu {
     display: flex;
